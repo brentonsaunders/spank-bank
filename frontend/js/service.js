@@ -4,7 +4,7 @@ const req = async (method, path, data) => {
     const url = BASE_URL + "/" + path;
     const options = {
         method, 
-        redentials: "include",
+        credentials: "include",
     };
 
     if (data) {
