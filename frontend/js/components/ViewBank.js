@@ -83,7 +83,7 @@ export const ViewBank = (props = {}) => {
 
         if (bank.link_count) {
             html += `<p class="bold gray-text text-center">
-                        Click the orange button below to pick a random link from your Space Bank.
+                        Click the orange button below to pick a random link from your Spank Bank.
                     </p>`;
         } else if (!link) {
             html += `<p class="bold gray-text text-center">
